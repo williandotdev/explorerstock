@@ -6,7 +6,7 @@ import { AdminRoutes } from './admin.routes';
 import { AuthRoutes } from './auth.routes';
 import { CustomerRoutes } from './customer.routes';
 import { SaleRoutes } from './sale.routes';
-import { USER_ROLE } from '../../ultils/roles';
+import { USER_ROLE } from '../utils/roles';
 
 export function Routes() {
   const { user } = useAuth();
